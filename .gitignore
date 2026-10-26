@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+# Never commit real student records
+data/student_service_requests*.csv
+data/real_*.csv
