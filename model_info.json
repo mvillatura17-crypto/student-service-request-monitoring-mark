@@ -1,0 +1,128 @@
+{
+  "model_name": "Decision Tree (preprocessing + classifier pipeline)",
+  "model_version": "1.0",
+  "trained_at": "2026-10-26 09:19:41",
+  "data_source": "Synthetic sample data (data/sample_requests.csv)",
+  "sklearn_version": "1.8.0",
+  "target": "SLA_Breached",
+  "target_definition": "1 if Processing_Days > SLA_Days (completed requests only)",
+  "features": [
+    "Service_Type",
+    "Requester_Type",
+    "Requested_Channel",
+    "Priority",
+    "Assigned_Office",
+    "Required_Documents_Complete",
+    "Submission_Weekday",
+    "Queue_Length",
+    "SLA_Days"
+  ],
+  "hyperparameters": {
+    "max_depth": 5,
+    "min_samples_leaf": 5,
+    "random_state": 42,
+    "test_size": 0.2
+  },
+  "n_rows_raw": 400,
+  "n_rows_model": 305,
+  "n_train": 244,
+  "n_test": 61,
+  "class_counts": {
+    "0": 148,
+    "1": 157
+  },
+  "metrics": {
+    "Accuracy": 0.7704918032786885,
+    "Precision (breach)": 0.7297297297297297,
+    "Recall (breach)": 0.8709677419354839,
+    "F1-score (breach)": 0.7941176470588235
+  },
+  "baseline_metrics": {
+    "Accuracy": 0.5081967213114754,
+    "Precision (breach)": 0.5081967213114754,
+    "Recall (breach)": 1.0,
+    "F1-score (breach)": 0.6739130434782609
+  },
+  "confusion_matrix": [
+    [
+      20,
+      10
+    ],
+    [
+      4,
+      27
+    ]
+  ],
+  "classification_report": {
+    "No Breach": {
+      "precision": 0.8333333333333334,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.7407407407407407,
+      "support": 30.0
+    },
+    "Breach": {
+      "precision": 0.7297297297297297,
+      "recall": 0.8709677419354839,
+      "f1-score": 0.7941176470588235,
+      "support": 31.0
+    },
+    "accuracy": 0.7704918032786885,
+    "macro avg": {
+      "precision": 0.7815315315315315,
+      "recall": 0.7688172043010753,
+      "f1-score": 0.7674291938997821,
+      "support": 61.0
+    },
+    "weighted avg": {
+      "precision": 0.7806823216659282,
+      "recall": 0.7704918032786885,
+      "f1-score": 0.7678667095253402,
+      "support": 61.0
+    }
+  },
+  "feature_importance": {
+    "Queue_Length": 0.4461113870638451,
+    "Submission_Weekday": 0.19358202110213907,
+    "Priority": 0.11179526043821195,
+    "Required_Documents_Complete": 0.08200745212717543,
+    "Service_Type": 0.07746656924173533,
+    "SLA_Days": 0.06279391245853984,
+    "Assigned_Office": 0.021619274884684674,
+    "Requested_Channel": 0.004624122683668659,
+    "Requester_Type": 0.0
+  },
+  "category_options": {
+    "Service_Type": [
+      "Academic Records",
+      "Certification",
+      "Financial Services",
+      "It Support",
+      "Scholarship Inquiry"
+    ],
+    "Requester_Type": [
+      "Faculty",
+      "Staff",
+      "Student"
+    ],
+    "Requested_Channel": [
+      "Email",
+      "Portal",
+      "Walk-In"
+    ],
+    "Priority": [
+      "High",
+      "Low",
+      "Normal"
+    ],
+    "Assigned_Office": [
+      "Finance Office",
+      "It Helpdesk",
+      "Registrar",
+      "Student Affairs"
+    ],
+    "Required_Documents_Complete": [
+      "No",
+      "Yes"
+    ]
+  }
+}

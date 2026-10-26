@@ -1,0 +1,62 @@
+Service_Type,Requester_Type,Requested_Channel,Priority,Assigned_Office,Required_Documents_Complete,Submission_Weekday,Queue_Length,SLA_Days,Actual_SLA_Breached,Saved_Prediction,Saved_Probability
+Certification,Student,Portal,Normal,Registrar,No,Sunday,6.0,3.0,0,1,1.0
+Scholarship Inquiry,Student,Portal,Normal,Student Affairs,Yes,Friday,0.0,7.0,0,0,0.235294
+Financial Services,Student,Portal,Normal,Finance Office,Yes,Monday,12.0,5.0,1,1,0.694915
+It Support,Faculty,Walk-In,Low,It Helpdesk,No,Monday,9.0,2.0,1,0,0.111111
+Financial Services,Student,Portal,High,Finance Office,No,Thursday,4.0,5.0,1,1,1.0
+Certification,Student,Email,High,Registrar,Yes,Friday,0.0,3.0,0,0,0.0
+Financial Services,Student,Portal,Low,Finance Office,Yes,Thursday,10.0,5.0,0,1,0.694915
+It Support,Student,Portal,Normal,It Helpdesk,Yes,Thursday,0.0,2.0,0,0,0.235294
+Academic Records,Student,Walk-In,Normal,Registrar,No,Sunday,9.0,5.0,1,1,0.694915
+Certification,Faculty,Portal,Low,Registrar,Yes,Saturday,7.0,3.0,0,0,0.232558
+Academic Records,Student,Portal,Normal,Registrar,Yes,Wednesday,8.0,5.0,0,0,0.333333
+Financial Services,Student,Portal,Normal,Finance Office,Yes,Tuesday,0.0,5.0,1,0,0.235294
+Academic Records,Student,Portal,Low,Registrar,Yes,Wednesday,11.0,5.0,1,1,0.857143
+Scholarship Inquiry,Faculty,Portal,Low,Student Affairs,Yes,Monday,6.0,7.0,0,0,0.232558
+Academic Records,Staff,Email,Low,Registrar,Yes,Monday,6.0,5.0,0,0,0.232558
+Financial Services,Student,Walk-In,High,Finance Office,Yes,Sunday,8.0,5.0,1,1,0.694915
+Certification,Student,Email,Normal,Registrar,Yes,Saturday,0.0,3.0,0,0,0.0
+Academic Records,Student,Walk-In,Low,Registrar,Yes,Thursday,11.0,5.0,1,1,0.694915
+It Support,Faculty,Walk-In,High,It Helpdesk,Yes,Saturday,7.0,2.0,0,0,0.232558
+Scholarship Inquiry,Student,Portal,Low,Student Affairs,Yes,Thursday,0.0,7.0,0,0,0.235294
+It Support,Staff,Portal,Normal,It Helpdesk,Yes,Saturday,17.0,2.0,0,1,0.571429
+Certification,Student,Email,Normal,Registrar,Yes,Wednesday,0.0,3.0,0,0,0.0
+Academic Records,Staff,Portal,High,Registrar,Yes,Sunday,7.0,5.0,0,1,0.714286
+Scholarship Inquiry,Student,Portal,Normal,Student Affairs,Yes,Monday,13.0,7.0,1,1,0.694915
+Certification,Student,Portal,High,Registrar,Yes,Saturday,11.0,3.0,1,1,0.916667
+It Support,Student,Portal,Normal,It Helpdesk,Yes,Wednesday,0.0,2.0,0,0,0.235294
+Academic Records,Faculty,Portal,Normal,Registrar,No,Wednesday,7.0,5.0,0,1,1.0
+It Support,Student,Portal,Low,It Helpdesk,Yes,Friday,11.0,2.0,1,1,1.0
+Certification,Faculty,Portal,Normal,Registrar,No,Monday,9.0,3.0,1,1,0.916667
+Financial Services,Student,Email,High,Finance Office,No,Tuesday,10.0,5.0,1,1,0.833333
+Academic Records,Student,Portal,High,Registrar,Yes,Friday,11.0,5.0,1,1,0.694915
+Academic Records,Student,Portal,Low,Registrar,Yes,Monday,6.0,5.0,0,0,0.232558
+Certification,Faculty,Portal,Normal,Registrar,Yes,Tuesday,0.0,3.0,1,0,0.0
+Financial Services,Student,Walk-In,Normal,Finance Office,Yes,Friday,8.0,5.0,0,1,0.694915
+Academic Records,Faculty,Portal,Normal,Registrar,No,Thursday,9.0,5.0,1,1,0.694915
+It Support,Student,Portal,Normal,It Helpdesk,Yes,Thursday,9.0,2.0,0,0,0.285714
+Certification,Student,Walk-In,Normal,Registrar,Yes,Thursday,6.0,3.0,1,1,0.714286
+Academic Records,Faculty,Email,Normal,Registrar,Yes,Monday,0.0,5.0,0,0,0.0
+Financial Services,Student,Portal,Low,Finance Office,Yes,Monday,0.0,5.0,0,0,0.235294
+Academic Records,Student,Walk-In,High,Registrar,Yes,Monday,8.0,5.0,0,1,0.694915
+Academic Records,Student,Walk-In,Normal,Registrar,Yes,Sunday,7.0,5.0,1,1,0.714286
+Financial Services,Faculty,Portal,Normal,Finance Office,Yes,Saturday,15.0,5.0,1,1,0.694915
+It Support,Student,Portal,Low,It Helpdesk,Yes,Thursday,8.0,2.0,0,0,0.111111
+Certification,Student,Walk-In,Normal,Registrar,Yes,Friday,10.0,3.0,1,1,0.916667
+Academic Records,Student,Portal,High,Registrar,Yes,Thursday,13.0,5.0,0,1,0.694915
+Scholarship Inquiry,Student,Portal,High,Student Affairs,Yes,Monday,0.0,7.0,0,0,0.0
+It Support,Faculty,Portal,Normal,It Helpdesk,No,Friday,0.0,2.0,1,1,0.8
+Scholarship Inquiry,Student,Email,High,Student Affairs,No,Saturday,9.0,7.0,1,1,0.694915
+Academic Records,Student,Portal,High,Registrar,Yes,Monday,9.0,5.0,0,1,0.694915
+Certification,Staff,Walk-In,Normal,Registrar,Yes,Tuesday,10.0,3.0,1,1,1.0
+Scholarship Inquiry,Student,Portal,Normal,Student Affairs,No,Friday,13.0,7.0,1,1,0.694915
+Academic Records,Student,Email,High,Registrar,Yes,Monday,19.0,5.0,1,1,0.694915
+Financial Services,Staff,Walk-In,Normal,Finance Office,Yes,Friday,10.0,5.0,1,1,0.694915
+Academic Records,Student,Walk-In,Normal,Registrar,Yes,Saturday,6.0,5.0,0,0,0.232558
+Certification,Student,Walk-In,Low,Registrar,Yes,Saturday,6.0,3.0,1,0,0.232558
+It Support,Student,Walk-In,Normal,It Helpdesk,Yes,Saturday,11.0,2.0,1,1,0.571429
+Scholarship Inquiry,Staff,Portal,Normal,Student Affairs,Yes,Saturday,15.0,7.0,1,1,0.694915
+Financial Services,Student,Email,Normal,Finance Office,No,Friday,16.0,5.0,1,1,0.694915
+Academic Records,Student,Email,Low,Registrar,No,Tuesday,6.0,5.0,1,1,1.0
+It Support,Student,Email,High,It Helpdesk,Yes,Thursday,0.0,2.0,0,0,0.0
+Academic Records,Faculty,Walk-In,High,Registrar,Yes,Friday,10.0,5.0,0,1,0.694915
